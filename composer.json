@@ -1,4 +1,17 @@
 {
+    "name": "macecomp",
+    "type": "project",
+    "description": "Web interface for MACE COMP system",
+    "authors": [
+        {
+            "name": "Bartosz Przybysz",
+            "email": "bartosz.d.przybysz@gmail.com"
+        },
+        {
+            "name": "David Fay",
+            "email": "dfay@franciscan.edu"
+        }
+    ],
     "repositories": [
         {
             "type": "vcs",
