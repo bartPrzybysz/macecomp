@@ -1,3 +1,4 @@
 [submodule "git-deploy"]
 	path = git-deploy
 	url = https://github.com/vicenteguerra/git-deploy.git
+	ignore = dirty
