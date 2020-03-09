@@ -1,0 +1,8 @@
+
+RewriteEngine on
+
+# Deny access to filenames starting with dot(.)
+<FilesMatch "^\.">
+Order allow,deny
+Deny from all
+</FilesMatch>
