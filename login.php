@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Index</title>
+    <title>login</title>
     <style>
         .center {
             display: block;
@@ -23,7 +23,7 @@
 </head>
 
 <body>
-    <h1>Index of macecomp subdomain :)</h1>
+    <h1>Login Page</h1>
     <img src="img/under_construction.webp" class="center">
 </body>
 
