@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>jwks</title>
+    <title>Index</title>
     <style>
         .center {
             display: block;
@@ -23,12 +23,20 @@
 </head>
 
 <body>
-    <h1>JSON Web Key Set (jwks) authorization</h1>
-    <img src="../img/under_construction.webp" class="center">
+    <h1>Index of macecomp subdomain :)</h1>
+    <img src="img/under_construction.webp" class="center">
+    GET:
+    <pre>
+        <?= print_r($_GET); ?>
+    </pre>
+    POST:
+    <pre>
+        <?= print_r($_POST); ?>
+    </pre>
 </body>
 
 <footer>
-    Using php <?php echo phpversion(); ?>
+    Using php <?= phpversion(); ?>
 </footer>
 
 </html>

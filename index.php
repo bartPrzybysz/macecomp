@@ -28,7 +28,7 @@
 </body>
 
 <footer>
-    Using php <?php echo phpversion(); ?>
+    Using php <?= phpversion(); ?>
 </footer>
 
 </html>
