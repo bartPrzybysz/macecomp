@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Index</title>
+    <title>Question</title>
     <style>
         .center {
             display: block;
@@ -23,8 +23,12 @@
 </head>
 
 <body>
-    <h1>Index of macecomp subdomain :)</h1>
+    <h1>Question Page</h1>
     <img src="img/under_construction.webp" class="center">
+    <p>
+        This is where question <b><?= $_POST['resource_link_title']; ?></b>
+        will appear for student <b><?= $_POST['lis_person_sourcedid']; ?></b>
+    </p>
     GET:
     <pre>
         <?= print_r($_GET); ?>

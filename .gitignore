@@ -1,3 +1,5 @@
 .vscode
 vendor
-blackboard_app_keys.txt
+.blackboard_app_keys.txt
+*.config
+!*.example.config
